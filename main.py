@@ -2,7 +2,7 @@ from build_operation import BuildOperation as Build
 from math_core import MathCore as Solution
 
 if __name__=='__main__':
-    print(eval("(2+2)*(2+2)"))
+    '''print(eval("(2+2)*(2+2)"))
     x=Build()
     x.addChar("(")
     x.addChar("2")
@@ -16,7 +16,11 @@ if __name__=='__main__':
     x.addChar("2")
     x.addChar(")")
     print(x)
-    print(Solution(str(x.__repr__()[1])).solution)
+    print(Solution(str(x.__repr__()[1])).solution)'''
+    #print(2.0%2)
+    x = Solution("2.9876")
+    print(x)
+
 
 
 
